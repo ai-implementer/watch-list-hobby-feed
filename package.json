@@ -22,13 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/yamadashy/tech-blog--rss-feed.git"
+    "url": "git://github.com/ai-implementer/watch-list-hobby-feed.git"
   },
   "bugs": {
-    "url": "https://github.com/yamadashy/tech-blog-rss-feed/issues"
+    "url": "https://github.com/ai-implementer/watch-list-hobby-feed/issues"
   },
   "type": "module",
-  "author": "yamadashy",
+  "author": "ai-implementer",
   "license": "MIT",
   "keywords": [
     "blog",

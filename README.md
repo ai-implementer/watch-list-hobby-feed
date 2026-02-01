@@ -1,8 +1,14 @@
 # <img src="src/site/images/icon-transparent.png" height=26> 企業テックブログRSS
+
+---
+オリジナルは[yamadashy/tech-blog-rss-feed](https://github.com/yamadashy/tech-blog-rss-feed)です。
+
+---
+
 企業のテックブログの更新をまとめたRSSフィードを配信しています。
 記事を読んでその企業の技術・カルチャーを知れることや、質の高い技術情報を得られることを目的としています。
 
-https://yamadashy.github.io/tech-blog-rss-feed/
+https://hobeeds.implementer.net/
 
 
 独自のフィードを作って公開したい場合は自由にフォークしてください。
@@ -23,7 +29,7 @@ https://yamadashy.github.io/tech-blog-rss-feed/
 - 企業系ブログのテクノロジーカテゴリ
 
 ## サイトの追加方法
-[src/resources/feed-info-list.ts](https://github.com/yamadashy/tech-blog-rss-feed/blob/main/src/resources/feed-info-list.ts) で管理しており、その一覧にない場合 issue を作っていただければ対応します。
+[src/resources/feed-info-list.ts](https://github.com/ai-implementer/watch-list-hobby-feed/blob/main/src/resources/feed-info-list.ts) で管理しており、その一覧にない場合 issue を作っていただければ対応します。
 
 ### AIエージェントによるフィードの追加
 
