@@ -28,6 +28,9 @@ const createFeedInfoList = (feedInfoTuples: FeedInfoTuple[]) => {
 export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   // ['企業名・製品名など', 'RSS/AtomフィードのURL'],
   ['TRAICY（トライシー）', 'https://www.traicy.com/feed/'],
+  ['Aviation Wire', 'https://www.aviationwire.jp/feed'],
+  ['AIRLINE web -月刊エアライン×航空旅行', 'https://airline.ikaros.jp/feed/'],
+  ['sky-budget スカイバジェット', 'https://sky-budget.com/feed/']
 ]);
 
 /**
