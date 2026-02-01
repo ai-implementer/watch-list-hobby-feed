@@ -1,4 +1,4 @@
-const siteUrlStem = 'https://ai-implementer.github.io/watch-list-hobby-feed';
+const siteUrlStem = 'https://hobeeds.implementer.net';
 const siteUrl = `${siteUrlStem}/`;
 
 export default {
