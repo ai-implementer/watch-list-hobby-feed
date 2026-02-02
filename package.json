@@ -1,6 +1,6 @@
 {
-  "name": "tech-blog-rss-feed",
-  "description": "企業のテックブログの更新をまとめたRSSフィードを配信",
+  "name": "watch-list-hobby-feed",
+  "description": "ブログの更新をまとめたRSSフィードを配信",
   "version": "1.0.0",
   "main": "",
   "scripts": {

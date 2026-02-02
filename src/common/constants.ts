@@ -7,11 +7,11 @@ export default {
   siteUrlStem: siteUrlStem,
   siteTitle: 'ブログRSS',
   siteDescription:
-    '企業のテックブログの更新をまとめたRSSフィードを配信しています。記事を読んでその企業の技術・カルチャーを知れることや、質の高い技術情報を得られることを目的としています。',
+    'ブログの更新をまとめたRSSフィードを配信しています。',
 
   // フィード設定
   feedTitle: 'ブログRSS',
-  feedDescription: '企業のテックブログの更新をまとめたRSSフィード',
+  feedDescription: 'ブログの更新をまとめたRSSフィード',
   feedLanguage: 'ja',
   feedCopyright: 'ai-implementer/watch-list-hobby-feed',
   feedGenerator: 'ai-implementer/watch-list-hobby-feed',
