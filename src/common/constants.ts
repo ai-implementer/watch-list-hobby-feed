@@ -6,8 +6,7 @@ export default {
   siteUrl: `${siteUrl}`,
   siteUrlStem: siteUrlStem,
   siteTitle: 'ブログRSS',
-  siteDescription:
-    'ブログの更新をまとめたRSSフィードを配信しています。',
+  siteDescription: 'ブログの更新をまとめたRSSフィードを配信しています。',
 
   // フィード設定
   feedTitle: 'ブログRSS',
