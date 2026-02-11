@@ -31,6 +31,16 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['Aviation Wire', 'https://www.aviationwire.jp/feed'],
   ['AIRLINE web -月刊エアライン×航空旅行', 'https://airline.ikaros.jp/feed/'],
   ['sky-budget スカイバジェット', 'https://sky-budget.com/feed/'],
+  ['航空新聞社', 'https://www.jwing.net/feed/'],
+  ['トラベルボイス', 'https://www.travelvoice.jp/feed'],
+  ['レスポンス 航空', 'https://response.jp/rss/airplane.rdf'],
+  ['理系マイラーとSFC修行', 'https://rikei-miler.com/feed/'],
+  ['マイルの錬金術師アドバンス', 'https://haruwari.com/feed/'],
+  ['平均年収陸マイラー', 'https://sasamiler.net/feed'],
+  ['東京ラグジュアリースタイル', 'https://kuneruasobu1192.jp/feed/'],
+  ['ヴォヤージャーズ', 'https://voyageurs.jp/feed/'],
+  ['ステータスカード＆マイル攻略ログ', 'https://babyfirst.jp/feed/'],
+  ['PrimeTravel', 'https://jprimetravel.com/feed/'],
 ]);
 
 /**
