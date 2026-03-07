@@ -41,6 +41,14 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['ヴォヤージャーズ', 'https://voyageurs.jp/feed/'],
   ['ステータスカード＆マイル攻略ログ', 'https://babyfirst.jp/feed/'],
   ['PrimeTravel', 'https://jprimetravel.com/feed/'],
+  ['すけすけのマイル乞食', 'https://www.sukesuke-mile-kojiki.net/feed'],
+  ['ピピノブのANAマイルで旅ブログ', 'https://www.pipinobu.com/feed'],
+  ['マイル先生のブログ', 'https://www.mile-sensei.com/feed'],
+  ['Halohalo Travel', 'https://halohalo.space/feed'],
+  ['ゆる医師のマイルと旅ランニング', 'https://www.goutaro.com/feed'],
+  ['JGCゆる陸マイラーの旅行備忘録', 'https://travelervega.hatenablog.com/feed'],
+  ['のりたの旅ブログ', 'https://nrtlog.com/feed'],
+  ['sorakoge', 'https://sorakoge.net/feed'],
 ]);
 
 /**
