@@ -49,6 +49,22 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['JGCゆる陸マイラーの旅行備忘録', 'https://travelervega.hatenablog.com/feed'],
   ['のりたの旅ブログ', 'https://nrtlog.com/feed'],
   ['sorakoge', 'https://sorakoge.net/feed'],
+  ['JALマイルの鉄人', 'https://xn--u9jwf3g0b279u8x3f.com/feed'],
+  ['AMEXとANAマイル', 'https://www.sk-free-journal.com/feed'],
+  ['PENGUIN LIFE', 'https://penguin-life.net/feed'],
+  ['のどかな一人旅のお話', 'https://nodoka-hitoritabi.com/feed'],
+  ['スマイラーズナビ', 'https://omusubicororin.net/feed'],
+  ['The Goal', 'https://matsunosuke.jp/feed'],
+  ['kimama日誌', 'https://kimamanisshi.com/feed'],
+  ['旅中毒', 'https://www.tabichudoku.com/feed'],
+  ['ゆみみの旅ブログ', 'https://yumimiblog.com/feed'],
+  ['クレカで妄想トラベル', 'https://www.tokutakublog.com/feed'],
+  ['SPGアメックスのすべて', 'https://www.monsterism.net/feed'],
+  ['Creca-Style', 'https://gold-ax.hatenablog.jp/feed'],
+  ['ぼちぼち旅行Blog sao散歩', 'https://www.saotrip.com/feed'],
+  ['SAPPOROベースでマイレージ旅行', 'https://www.sapporo-base.net/feed'],
+  ['ENOHARU HOTEL REPORTS', 'https://enoharus-hotel-reports.com/feed'],
+  ['Happy Mi Life', 'https://www.happy-mi-life.net/feed/'],
 ]);
 
 /**
