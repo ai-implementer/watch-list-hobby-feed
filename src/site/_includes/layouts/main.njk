@@ -41,6 +41,10 @@
 
     <link rel="stylesheet" type="text/css" href="{{ page.url | relativeUrl }}styles/bundle.css" />
 
+    {% if constants.enableNewRelic %}
+        {{ newRelicSnippet | safe }}
+    {% endif %}
+
     {% if constants.globalSiteTagKey %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id={{ constants.globalSiteTagKey }}"></script>

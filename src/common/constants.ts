@@ -30,6 +30,9 @@ export default {
   googleSiteVerification: '',
   globalSiteTagKey: 'G-CL0G5METXQ',
 
+  // NewRelic Browser Agent。フォークして使う際は false に変更してください
+  enableNewRelic: process.env.ENABLE_NEW_RELIC === 'true',
+
   // フィードの取得などに使う UserAgent
   requestUserAgent: 'facebookexternalhit/1.1; ai-implementer/watch-list-hobby-feed',
 
