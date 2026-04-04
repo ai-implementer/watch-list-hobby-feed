@@ -1,4 +1,5 @@
 [files]
 extend-exclude = [
-  "src/resources/feed-info-list.ts"
+  "src/resources/feed-info-list.ts",
+  "src/site/_includes/scripts/newrelic.html"
 ]
