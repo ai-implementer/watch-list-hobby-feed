@@ -80,6 +80,23 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
  * 技術のカテゴリ切られてないので悩ましい
  * ['Ragate', 'https://www.ragate.co.jp/blog/'],
  *
+ * 会社解散・合併・倒産
+ * ['GRIPHONE', 'https://tech.griphone.co.jp/feed/'],
+ * ['トップゲート', 'https://www.topgate.co.jp/category/engineer/feed'],
+ * ['ロコガイド', 'https://techblog.locoguide.co.jp/feed'],
+ * ['トラーナ', 'https://tech.torana.co.jp/feed'],
+ * ['ハンズラボ', 'https://www.hands-lab.com/feed/'],
+ *
+ * ブランド統合でブログ移行
+ * ['ニフクラ', 'https://blog.pfs.nifcloud.com/feed'],
+ *
+ * サイト終了
+ * ['iCARE', 'https://dev.icare.jpn.com/feed/'],
+ *
+ * ブログ移行でフィードURLが変更。新フィードURL未確認
+ * ['DROBE', 'https://tech.drobe.co.jp/feed'],
+ * ['HireRoo', 'https://hireroo.io/rss/IJhPN95WMIcPni1r59Tt'],
+ *
  * 403 Forbidden
  * ['Cygames', 'https://tech.cygames.co.jp/feed/'],
  * ['BRANU', 'https://tech.branu.jp/feed'],
