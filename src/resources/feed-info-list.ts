@@ -21,12 +21,12 @@ const createFeedInfoList = (feedInfoTuples: FeedInfoTuple[]) => {
 };
 
 /**
- * フィード情報一覧。追加順
+ * フィード情報一覧。カテゴリ別
  * ラベルが被るとバリデーションエラーになるので別のラベルを設定してください
  */
 // prettier-ignore
 export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
-  // ['企業名・製品名など', 'RSS/AtomフィードのURL'],
+  // --- 航空・旅行ニュースメディア ---
   ['TRAICY（トライシー）', 'https://www.traicy.com/feed/'],
   ['Aviation Wire', 'https://www.aviationwire.jp/feed'],
   ['AIRLINE web -月刊エアライン×航空旅行', 'https://airline.ikaros.jp/feed/'],
@@ -34,37 +34,53 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['航空新聞社', 'https://www.jwing.net/feed/'],
   ['トラベルボイス', 'https://www.travelvoice.jp/feed'],
   ['レスポンス 航空', 'https://response.jp/rss/airplane.rdf'],
+
+  // --- マイル・陸マイラー ---
   ['理系マイラーとSFC修行', 'https://rikei-miler.com/feed/'],
   ['マイルの錬金術師アドバンス', 'https://haruwari.com/feed/'],
   ['平均年収陸マイラー', 'https://sasamiler.net/feed'],
-  ['東京ラグジュアリースタイル', 'https://kuneruasobu1192.jp/feed/'],
-  ['ヴォヤージャーズ', 'https://voyageurs.jp/feed/'],
-  ['ステータスカード＆マイル攻略ログ', 'https://babyfirst.jp/feed/'],
-  ['PrimeTravel', 'https://jprimetravel.com/feed/'],
   ['すけすけのマイル乞食', 'https://www.sukesuke-mile-kojiki.net/feed'],
   ['ピピノブのANAマイルで旅ブログ', 'https://www.pipinobu.com/feed'],
   ['マイル先生のブログ', 'https://www.mile-sensei.com/feed'],
-  ['Halohalo Travel', 'https://halohalo.space/feed'],
   ['ゆる医師のマイルと旅ランニング', 'https://www.goutaro.com/feed'],
   ['JGCゆる陸マイラーの旅行備忘録', 'https://travelervega.hatenablog.com/feed'],
-  ['のりたの旅ブログ', 'https://nrtlog.com/feed'],
   ['sorakoge', 'https://sorakoge.net/feed'],
   ['JALマイルの鉄人', 'https://xn--u9jwf3g0b279u8x3f.com/feed'],
   ['AMEXとANAマイル', 'https://www.sk-free-journal.com/feed'],
   ['PENGUIN LIFE', 'https://penguin-life.net/feed'],
-  ['のどかな一人旅のお話', 'https://nodoka-hitoritabi.com/feed'],
   ['スマイラーズナビ', 'https://omusubicororin.net/feed'],
-  ['The Goal', 'https://matsunosuke.jp/feed'],
-  ['kimama日誌', 'https://kimamanisshi.com/feed'],
+  ['Happy Mi Life', 'https://www.happy-mi-life.net/feed/'],
+
+  // --- 旅行・ホテル ---
+  ['東京ラグジュアリースタイル', 'https://kuneruasobu1192.jp/feed/'],
+  ['ヴォヤージャーズ', 'https://voyageurs.jp/feed/'],
+  ['ステータスカード＆マイル攻略ログ', 'https://babyfirst.jp/feed/'],
+  ['PrimeTravel', 'https://jprimetravel.com/feed/'],
+  ['Halohalo Travel', 'https://halohalo.space/feed'],
+  ['のりたの旅ブログ', 'https://nrtlog.com/feed'],
+  ['のどかな一人旅のお話', 'https://nodoka-hitoritabi.com/feed'],
   ['旅中毒', 'https://www.tabichudoku.com/feed'],
   ['ゆみみの旅ブログ', 'https://yumimiblog.com/feed'],
-  ['クレカで妄想トラベル', 'https://www.tokutakublog.com/feed'],
-  ['SPGアメックスのすべて', 'https://www.monsterism.net/feed'],
-  ['Creca-Style', 'https://gold-ax.hatenablog.jp/feed'],
   ['ぼちぼち旅行Blog sao散歩', 'https://www.saotrip.com/feed'],
   ['SAPPOROベースでマイレージ旅行', 'https://www.sapporo-base.net/feed'],
   ['ENOHARU HOTEL REPORTS', 'https://enoharus-hotel-reports.com/feed'],
-  ['Happy Mi Life', 'https://www.happy-mi-life.net/feed/'],
+
+  // --- クレジットカード・ポイント ---
+  ['クレカで妄想トラベル', 'https://www.tokutakublog.com/feed'],
+  ['SPGアメックスのすべて', 'https://www.monsterism.net/feed'],
+  ['Creca-Style', 'https://gold-ax.hatenablog.jp/feed'],
+  ['kimama日誌', 'https://kimamanisshi.com/feed'],
+
+  // --- キーボード ---
+  ['自作キーボード温泉街の歩き方', 'https://salicylic-acid3.hatenablog.com/feed'],
+  ['TALPKEYBOARD BLOG', 'https://www.talpkeyboard.com/feed'],
+  ['ぴろりのくせになまいきだ。', 'https://piroriblog.hatenablog.com/feed'],
+  ['Keychron Blog', 'https://keychron.com/blogs/news.atom'],
+  ['Kinetic Labs', 'https://kineticlabs.com/blog/feed'],
+  ['Das Keyboard Blog', 'https://www.daskeyboard.com/blog/feed/'],
+
+  // --- 総合・その他 ---
+  ['The Goal', 'https://matsunosuke.jp/feed'],
 ]);
 
 /**
