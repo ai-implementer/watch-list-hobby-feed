@@ -79,6 +79,10 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['Kinetic Labs', 'https://kineticlabs.com/blog/feed'],
   ['Das Keyboard Blog', 'https://www.daskeyboard.com/blog/feed/'],
 
+  // --- パソコンデスク ---
+  ['ルイログ', 'https://rui-log.com/feed/'],
+  ['デジスタ', 'https://digital-style.jp/feed/'],
+
   // --- 総合・その他 ---
   ['The Goal', 'https://matsunosuke.jp/feed'],
 ]);
