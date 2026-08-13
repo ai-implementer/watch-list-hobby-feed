@@ -20,7 +20,7 @@ https://hobeeds.implementer.net/
 - その企業の取り組みでないものが多く投稿される可能性があるブログ
   - テック系メディア
   - Qiita Organization や Zenn Publication など、組織として投稿しているかの線引が曖昧なものは、投稿内容を見て検討します
-- 記事が自社製品の紹介のみ
+- 記事が自社製品やイベントの紹介が中心
 - 日本語以外の言語で書かれている記事が多いブログ
 
 逆に、以下はテックブログと判断して追加しています。
@@ -67,7 +67,7 @@ GitHub Actions で定期的に更新されており、サイトの生成は [Ele
 ### フォークして使う場合
 以下を書き換えると独自のサイトが動きます。
 
-- `src/common/constants.js` の URL など
+- `src/common/constants.ts` の URL など
 - `src/resources/feed-info-list.ts` のブログ情報
 
 特定のブログに絞ったり、以下のように全く違ったフィードを作るもの良いと思います。
@@ -76,7 +76,7 @@ GitHub Actions で定期的に更新されており、サイトの生成は [Ele
 
 ### 開発環境とコマンド
 環境
-- Node.js >= 20
+- Node.js >= 24
 
 パッケージのインストール
 ```bash
@@ -94,7 +94,7 @@ $ npm run site-serve
 
 コードのチェック
 ```bash
-$ # eslint, tsc --noEmit
+$ # Biome, tsc --noEmit, secretlint
 $ npm run lint
 
 $ # テスト

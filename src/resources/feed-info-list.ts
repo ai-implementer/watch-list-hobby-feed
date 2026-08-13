@@ -78,6 +78,17 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['Keychron Blog', 'https://keychron.com/blogs/news.atom'],
   ['Kinetic Labs', 'https://kineticlabs.com/blog/feed'],
   ['Das Keyboard Blog', 'https://www.daskeyboard.com/blog/feed/'],
+  ['遊舎工房 ニュース', 'https://shop.yushakobo.jp/blogs/news.atom'],
+  [
+    'Zennの「自作キーボード」のフィード',
+    'https://zenn.dev/topics/%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89/feed',
+  ],
+
+  // --- ガジェット ---
+  ['PC Watch', 'https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf'],
+  ['ギズモード・ジャパン', 'https://www.gizmodo.jp/index.xml'],
+  ['The Verge', 'https://www.theverge.com/rss/index.xml'],
+  ['Daily Gadget', 'https://daily-gadget.net/feed/'],
 
   // --- パソコンデスク ---
   ['ルイログ', 'https://rui-log.com/feed/'],

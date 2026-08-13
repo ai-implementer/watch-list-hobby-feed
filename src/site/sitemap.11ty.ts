@@ -1,0 +1,12 @@
+// /sitemap.xml を生成する。/site.xml を生成する site.11ty.ts と同一内容のため、
+// どちらか一方を変更する場合は両方を同期させること。
+import { type SitemapData, renderSitemap } from './_includes/components/sitemap';
+
+export const data = {
+  permalink: '/sitemap.xml',
+  eleventyExcludeFromCollections: true,
+};
+
+export function render(data: SitemapData): string {
+  return renderSitemap(data);
+}
