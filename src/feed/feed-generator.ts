@@ -1,6 +1,6 @@
 import { Feed, type FeedOptions } from 'feed';
 import constants from '../common/constants.js';
-import { isValidHttpUrl, textToMd5Hash, textTruncate } from './common-util';
+import { isValidHttpUrl, removeInvalidUnicode, textToMd5Hash, textTruncate } from './common-util';
 import type { CustomRssParserItem, FeedItemHatenaCountMap, OgObjectMap } from './feed-crawler';
 import { logger } from './logger';
 
@@ -80,9 +80,12 @@ export class FeedGenerator {
       const ogImage = ogObject?.customOgImage;
       const feedItemImage = ogImage?.url && isValidHttpUrl(ogImage.url) ? { ...ogImage } : undefined;
 
+      // OG由来の文字列は取得時にサニタイズされていないのでここで不正な文字を除去する
+      // （RSSの enclosure 属性や _custom にそのまま出力されるため）
       if (feedItemImage?.alt) {
-        feedItemImage.alt = escapeTextForXml(feedItemImage.alt);
+        feedItemImage.alt = escapeTextForXml(removeInvalidUnicode(feedItemImage.alt));
       }
+      const favicon = ogObject?.favicon ? removeInvalidUnicode(ogObject.favicon) : ogObject?.favicon;
 
       // 日付がないものは入れない
       if (!feedItem.isoDate) {
@@ -123,7 +126,7 @@ export class FeedGenerator {
               blogTitle: escapeTextForXml(feedItem.blogTitle),
               blogLink: feedItem.blogLink,
               blogLinkMd5Hash: textToMd5Hash(feedItem.blogLink),
-              favicon: ogObject?.favicon,
+              favicon: favicon,
             },
           },
         ],
