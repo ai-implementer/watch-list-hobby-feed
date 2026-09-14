@@ -277,7 +277,7 @@ export class FeedCrawler {
       feedItem.categories = feedItem.categories?.map(removeInvalidUnicode) || [];
 
       // view用
-      feedItem.blogTitle = customFeed.title || '';
+      feedItem.blogTitle = removeInvalidUnicode(customFeed.title || '');
       feedItem.blogLink = customFeed.link || '';
     }
 
